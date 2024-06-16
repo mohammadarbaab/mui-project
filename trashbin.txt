@@ -1,3 +1,236 @@
+<Drawer/
+ 
+
+          </Box>
+ 
+
+          <Box sx={{display:{xs:"none",sm:"block"}}}>
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0px 20px; 
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ 
+/* Adjust this value to increase or decrease the space between links */
+ 
+ justify-content: center;
+    align-items: center;
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0 15px; /* Adjust this value to increase or decrease the space between links */
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0 20px;  /* Adds space between each item */
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;  /* Ensure the font is correctly defined */
+}
+
+ 
+
+import './index.css'
+ 
+
+    padding: 0;  /* Ensure no default padding affects the layout */
+    margin: 0;  /* Ensure no default margin affects the layout */
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;  /* Ensure no default padding affects the layout */
+    margin: 0;  /* Ensure no default margin affects the layout */
+}
+
+.navigation-menu li {
+    margin: 0 20px;  /* Adds space between each item */
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;  /* Ensure the font is correctly defined */
+}
+
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;  /* Ensure no default padding affects the layout */
+    margin: 0;  /* Ensure no default margin affects the layout */
+}
+
+.navigation-menu li {
+    margin: 0 20px;  /* Adds space between each item */
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;  /* Ensure the font is correctly defined */
+}
+
+ 
+
+    padding: 0; /* Ensure no default padding affects the layout */
+    margin: 0;  /* Ensure no default margin affects the layout */
+ 
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Ensure no default padding/margin affects the layout */
+    margin: 0; /* Ensure no default padding/margin affects the layout */
+}
+
+.navigation-menu li {
+    margin: 0 20px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Ensure the font is correctly defined */
+}
+
+ 
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu li {
+    margin: 0px 20px;
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: ro;
+}
+ 
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu li {
+    margin: 0px 20px;
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: ro;
+}
+ 
+font-family: 'roboto',sans-serif;
+ 
+
+import '../../styles/HeaderStyle.css';
+ 
+src/
+ 
+
+import '../../../src/styles/HeaderStyle.css'
+ 
+
+              <Link></Link>
+ 
+sx={{mr:2}}
+ 
+Foodie
+ 
+
+      Header
+ 
+// import { Home } from "@mui/icons-material";
+ 
+
+    <About></About>
+ 
+
+    <Home></Home>
+ 
+
+
+// import {Typography} from '@mui/material
+ 
+
+      </div>
+ 
+
+      <div>
+ 
+
+import { BrowserRouter } from 'react-router-dom';
+ 
+
+    </BrowserRouter>
+ 
+
+    <BrowserRouter>
+ 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+
+const theme = createTheme();
+
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+);
+
+ 
 
           <Route path="*" element={<PageNotFound />} />
  
