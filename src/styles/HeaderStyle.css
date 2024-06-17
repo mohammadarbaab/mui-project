@@ -15,3 +15,25 @@
     font-family: 'Roboto', sans-serif;
     
 }
+.mobile-navigation {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-navigation li a {
+    margin:20px; 
+}
+
+.mobile-navigation li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
