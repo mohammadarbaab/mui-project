@@ -1,4 +1,12 @@
 
+        color: #121169;
+ 
+
+        background-color: #121619;
+ 
+.home 
+ 
+
     size: 100px;
  
 
