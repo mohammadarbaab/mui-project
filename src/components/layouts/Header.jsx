@@ -91,6 +91,7 @@ function Header() {
             {drawer}
           </Drawer>
         </Box>
+        <Toolbar />
       </Box>
     </div>
   );
