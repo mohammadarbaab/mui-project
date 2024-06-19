@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import "../../styles/HeaderStyle.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -69,10 +70,10 @@ function Header() {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                  <Link to={"/"}>Home</Link>
-                  <Link to={"/menu"}>Menu</Link>
-                  <Link to={"/about"}>About</Link>
-                  <Link to={"/contact"}>Contact</Link>
+                  <NavLink activeClassName="active"  to={"/"}>Home</NavLink>
+                  <NavLink   to={"/menu"}>Menu</NavLink>
+                  <NavLink   to={"/about"}>About</NavLink>
+                  <NavLink   to={"/contact"}>Contact</NavLink>
                 </li>
               </ul>
             </Box>

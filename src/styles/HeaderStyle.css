@@ -24,6 +24,10 @@
 .mobile-navigation li a {
     margin:20px; 
 }
+.active{
+    color: gold;
+    font-weight: bold !important;
+}
 
 .mobile-navigation li a {
     text-decoration: none;
