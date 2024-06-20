@@ -28,12 +28,12 @@ function Header() {
         color={"gold"}
         variant="h6"
         component={"div"}
-        sx={{ flexGrow: 1,my:2}}
+        sx={{ flexGrow: 1, my: 2 }}
       >
         <FastfoodIcon sx={{ mr: 1 }} />
         My Resto
       </Typography>
-      <Divider/>
+      <Divider />
       <ul className="mobile-navigation">
         <li>
           <Link to={"/"}>Home</Link>
@@ -70,10 +70,12 @@ function Header() {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                  <NavLink activeClassName="active"  to={"/"}>Home</NavLink>
-                  <NavLink   to={"/menu"}>Menu</NavLink>
-                  <NavLink   to={"/about"}>About</NavLink>
-                  <NavLink   to={"/contact"}>Contact</NavLink>
+                  <NavLink activeClassName="active" to={"/"}>
+                    Home
+                  </NavLink>
+                  <NavLink to={"/menu"}>Menu</NavLink>
+                  <NavLink to={"/about"}>About</NavLink>
+                  <NavLink to={"/contact"}>Contact</NavLink>
                 </li>
               </ul>
             </Box>
@@ -84,10 +86,13 @@ function Header() {
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            sx={{ display: { xs: "block", sm: "none" },"& .MuiDrawer-paper":{
-              boxSizing:"border-box",
-              width:"240px"
-            }}}
+            sx={{
+              display: { xs: "block", sm: "none" },
+              "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: "240px",
+              },
+            }}
           >
             {drawer}
           </Drawer>
