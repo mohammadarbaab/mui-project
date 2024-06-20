@@ -1,4 +1,3 @@
-
 // import Layout from "./components/layouts/Layout";
 import { Route, Routes, Router } from "react-router-dom";
 import Contact from "./pages/Contact";
@@ -7,7 +6,7 @@ import Menu from "./pages/Menu";
 import { BrowserRouter } from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound";
 import Home from "./pages/Home";
-import './index.css'
+import "./index.css";
 function App() {
   return (
     <div>
